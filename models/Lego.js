@@ -25,6 +25,10 @@ Lego.init({
     type: DataTypes.INTEGER,
     allowNull: false
   },
+  Price: {
+    type: DataTypes.NUMBER,
+    allowNull: false
+  },
   PictureId: {
     type: DataTypes.INTEGER,
     allowNull: true

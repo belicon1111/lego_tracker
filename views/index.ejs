@@ -73,7 +73,7 @@
         <tr>
           <th scope="col">Product Name</th>
           <th scope="col">Collection Name</th>
-          <th scope="col">Gender</th>
+          <th scope="col">Item</th>
           <th scope="col">Ages</th>
           <th scope="col">Pieces</th>
           <th scope="col">Price</th>
@@ -85,10 +85,10 @@
           <tr>
               <td><%=lego.ProductName%></td>
               <td><%=lego.CollectionName%></td>
-              <td><%=lego.Ages%></td>
-              td><%=lego.Pieces%></td>
               <td><%=lego.Item%></td>
-              <td><%=lego.Price%></td>
+              <td><%=lego.Ages%></td>
+              <td><%=lego.Pieces%></td>
+              <td><%=lego.Price.toFixed(2)%></td>
               <td><% include delete.ejs %></td>
           </tr>
       <%}%>
